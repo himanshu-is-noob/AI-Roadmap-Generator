@@ -31,7 +31,7 @@ export interface GenerateRoadmapResponse {
 }
 
 const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? 'https://flowniq.onrender.com'
+  ? 'https://hireready-airoadmap.onrender.com/'
   : 'http://localhost:3001';
 
 export class ApiService {

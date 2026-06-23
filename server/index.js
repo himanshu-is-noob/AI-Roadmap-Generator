@@ -14,10 +14,11 @@ app.use(cors({
   origin: [
     'http://localhost:5173', 
     'http://127.0.0.1:5173',
-    'https://flowniq.netlify.app',
-    'https://flowniq.onrender.com',// Your Netlify frontend
+    'https://hireready-airoadmap.onrender.com/',
+    // Your Netlify frontend
     // Add your Render backend URL here once you get it
     // 'https://your-backend-name.onrender.com'
+    
   ],
   credentials: true
 }));
