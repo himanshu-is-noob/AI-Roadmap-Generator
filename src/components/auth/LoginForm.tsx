@@ -48,7 +48,7 @@ const LoginForm: React.FC = () => {
           <h1 className="text-3xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
             Welcome Back
           </h1>
-          <p className="text-slate-600 mt-2">Sign in to your Flowniq account</p>
+          <p className="text-slate-600 mt-2">Sign in to your HireReady account</p>
         </div>
 
         {/* Login Form */}

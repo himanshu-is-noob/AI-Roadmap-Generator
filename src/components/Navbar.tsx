@@ -27,29 +27,19 @@ const Navbar: React.FC = () => {
             <Link to={user ? "/dashboard" : "/"} className="flex items-center space-x-3">
               <div className="w-10 h-10 rounded-xl flex items-center justify-center overflow-hidden">
                 <img 
-                  src="/chartly_logo.png" 
+                  src="/logo.png" 
                   alt="Career Roadmap Logo" 
                   className="w-full h-full object-contain"
                 />
               </div>
               <h1 className="text-2xl font-bold bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
-                RoadmapAI
+                HireReady
               </h1>
             </Link>
 
             {/* Right Side */}
             <div className="flex items-center space-x-4">
-              {/* GitHub Link */}
-              <a
-                href="https://github.com/Conqueror555/career-roadmap-ai"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center space-x-2 text-slate-600 hover:text-slate-800 transition-colors duration-200 hover:scale-105 transform"
-                title="View on GitHub"
-              >
-                <Github className="w-5 h-5" />
-                <span className="text-sm font-medium">GitHub</span>
-              </a>
+              
 
               {/* User Menu */}
               {user && (
