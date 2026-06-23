@@ -14,7 +14,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173', 
     'http://127.0.0.1:5173',
-    'https://hireready-airoadmap.onrender.com/',
+    'https://hireready-ai-roadmap-generator-yuxd.vercel.app',
+    'https://hireready-airoadmap.onrender.com',
     // Your Netlify frontend
     // Add your Render backend URL here once you get it
     // 'https://your-backend-name.onrender.com'
